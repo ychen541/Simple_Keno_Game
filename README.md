@@ -5,7 +5,7 @@ Reference: https://www.ctlottery.org/KENO
 This project implements the popular casino and state lottery game, Keno. 
 This is a simple game to understand and play which allows us to focus on learning GUI development in JavaFX and trying our hand at event driven programing.
 
-# How to run:
+## How to run:
 mvn clean
 
 mvn compile
