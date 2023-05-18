@@ -5,6 +5,13 @@ Reference: https://www.ctlottery.org/KENO
 This project implements the popular casino and state lottery game, Keno. 
 This is a simple game to understand and play which allows us to focus on learning GUI development in JavaFX and trying our hand at event driven programing.
 
+# How to run:
+mvn clean
+
+mvn compile
+
+mvn exec:java
+
 ## How the game is played:
 Players wager by choosing a set amount of numbers( pick 2 numbers, pick 10 numbers, etc.) ranging from 1 to 80. After all players have made their wagers and picked their numbers, twenty numbers are drawn at random, between 1 and 80 with no duplicates. Players win by matching a set amount of their numbers to the numbers that are randomly drawn.
 
